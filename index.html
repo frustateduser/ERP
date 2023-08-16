@@ -2,7 +2,9 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/index.css">
     <title>Login</title>
 </head>
@@ -11,8 +13,29 @@
         <h1 id="heading">
             organization's name
         </h1>
-
-        <img src="img/logo.png" alt="" srcset="">
+        <center>
+            <img src="img/erp.png" alt="" srcset="" id="logo">
+        </center>
     </div>
+    <center>
+        <div id="login-form">
+        <h2 id="login-heading">LOGIN</h2>
+    <form action="POST" id="form">
+        <input type="text" name="username" id="username" placeholder="Username"> <br>
+        <input type="password" name="password" id="password" placeholder="Password"><br>
+        <input type="submit" value="Login" id="login" style="width: 60px; height: 20px;font-size: small;">
+        <input type="button" value="Register" id="register" onclick="location" style="width: 80px; height: 20px;font-size: small;">
+    </form>
+    <a href="http://passwordChange.html" target="_blank" rel="noopener noreferrer" style="color: aquamarine;">Forgot password?</a>
+    </div>
+    </center>
+        
+        
+    <footer>
+        <div id="footer">
+             <p id="footer-text">&copy;Copyright <strong>Koustubh Badshah. </strong> All rights reserved.</p>
+        </div>
+            
+    </footer>
 </body>
 </html>
