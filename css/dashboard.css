@@ -28,9 +28,8 @@
     display: none;
 }
 .body{
-    background-image: url(/img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(152, 197, 110);
+    
 }
 .navbar a.logout{
     display: -ms-inline-flexbox;
@@ -38,4 +37,22 @@
     font-size: 18px;
     margin-left: 1000px;
     text-align: center;
+}
+.back-to-top.active{
+    visibility: visible;
+    opacity: 1;
+}
+.back-to-top{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    background: #a5f371;
+    border-radius: 60px;
+    z-index: 23;
+    transition: all 0.4s;
+    align-items: center!important;
+    justify-content: center!important;
+    display: flex!important;
 }
