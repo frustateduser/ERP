@@ -1,0 +1,41 @@
+.navbar{
+    background-color: rgb(152, 197, 110);
+
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar li{
+    margin: 0 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: #fff;
+}
+.navbar .menu-icon{
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.body{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar a.logout{
+    display: -ms-inline-flexbox;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 1000px;
+    text-align: center;
+}
