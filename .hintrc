@@ -3,7 +3,7 @@
     "development"
   ],
   "hints": {
-    "meta-viewport": "off",
-    "highest-available-document-mode": "off"
+    "meta-viewport": "on",
+    "highest-available-document-mode": "on"
   }
 }
