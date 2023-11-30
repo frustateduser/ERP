@@ -1,73 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
 #footer{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    color: rgb(234 77 146);
-    margin-top: 50px;
+    color: rgb(16, 0, 0);
+    margin-top: 100px;
     margin-bottom: 50px;
+    position:relative;
 }
-h2{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(230, 51, 11);
-    margin-top: 50px;
-    margin-bottom: 50px;
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .head{
     text-align: center;
-    font-size: 30px;
+    padding: 15px;
+}
+
+.head>h1{
+    font-size: 30pt;
     font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgb(221, 239, 60);
     color: rgb(240, 8, 8);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 24px;
+    margin: 4px;
 }
 
-form{
-    display: inline-block;
+.head img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+#loginBox{
+    margin: 15px;
+    padding: 15px;
     text-align: center;
-    margin-left: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: 7px solid rgb(15, 48, 28);
-    border-radius : 10px;
-    padding: 20px;
-    font-size: 20px;
-    font-display: bold;
+    border: 3px solid  #1579dd;
+    border-radius: 10px;
+    display:block;
+    width: 400px;
+    height: 370px;
+    margin-left: auto;
+    margin-right: auto;
 }
-div{
-    margin-top: 30px;
-    margin-bottom: 30px;
+#loginBox h2{
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgb(221, 239, 60); 
+    padding: 24px;
+    margin: 4px;
+}
+#loginBox div{
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 10px;
+    display:block;
+}
+#loginBox div input{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size:medium ;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #495057;
+    border-color: #ced4da;
+}
+#loginBox div label{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size:16px ;
+    color: black;
 }
 
-button{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    border: 2px solid rgb(234 77 146);
-    border-radius: 5px;
-    padding: 6px;
-    background-color: rgb(234 77 146);
-    color: white;
-    font-size: 20px;
+.form a{
+    text-decoration: none;
+    color: #1579dd;
     font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
 }
-input{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    border: 2px solid rgb(12, 12, 12);
-    border-radius: 5px;
-    padding: 6px;
-    font-size: 20px;
+
+#submit{
+    margin: 10px;
+    padding: 10px;
     font-weight: bold;
+    font-size:medium ;
+    border-radius: 10px;
+    background-color: #acebb3;
+    color: #e71212;
+    border-color: #1579dd;
 }
-label{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding: 6px;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(240, 182, 8);
-}
-a{
-    color: aquamarine;
+
+#loginBox:hover{
+    border-color: #e71212;
+    box-shadow: -15px 15px 15px #e71212;
+    transition:all 0.5s linear;
 }

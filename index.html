@@ -29,30 +29,32 @@
 
     <title>Login</title>
 </head>
-<body style="background-image: -webkit-image-set('img/background.png');">
+<body style="background: url('img/background.jpeg');">  <!--background image-->
     <header class="head">
         <h1>PUBLIC ERP</h1>
         <figure>
-            <img src="img/erp.png" alt="logo" width="200" description="Designed by Freepik">
+            <img src="img/erp.png" alt="logo" description="Designed by Freepik">
         </figure>
     </header>
 
 
 
-
-    <form action="" method="post" class="form">
-        <h2>LOGIN</h2>
-        <div>
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username" required placeholder="username">
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" required placeholder="password">
-        </div>
-        <button type="submit" id="submit">Submit</button><br>
-        <a href="html/passwordChange.html" target="_blank" rel="noopener noreferrer">Forgot password?</a>
-    </form>
+    <article id="loginBox">
+        <form action="" method="post" class="form">
+            <h2>LOGIN</h2>
+            <div>
+                <label for="username">Username :</label>
+                <input type="text" name="username" id="username" required placeholder="username">
+            </div>
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" required placeholder="password" autocomplete="current-password" >
+            </div>
+            <button type="submit" id="submit">Submit</button><br>
+            <a href="html/passwordChange.html" target="_blank" rel="noopener noreferrer">Forgot password?</a>
+        </form>
+    </article>
+    
 
 
         
