@@ -26,10 +26,11 @@
     
     <link rel="apple-touch-icon" href="img/erp.png">   <!-- icon in tab  -->
     <link rel="icon" href="img/erp.png">
+    <script src=".../js/login.js"></script>
 
     <title>Login</title>
 </head>
-<body style="background: url('img/background.jpeg');">  <!--background image-->
+<body>  <!--background image-->
     <header class="head">
         <h1>PUBLIC ERP</h1>
         <figure>
@@ -40,7 +41,7 @@
 
 
     <article id="loginBox">
-        <form action="" method="post" class="form">
+        <form method="post" class="form">
             <h2>LOGIN</h2>
             <div>
                 <label for="username">Username :</label>
@@ -50,7 +51,7 @@
                 <label for="password">Password :</label>
                 <input type="password" name="password" id="password" required placeholder="password" autocomplete="current-password" >
             </div>
-            <button type="submit" id="submit">Submit</button><br>
+            <button type="submit" id="submit" onclick="validateForm()">Submit</button><br>
             <a href="html/passwordChange.html" target="_blank" rel="noopener noreferrer">Forgot password?</a>
         </form>
     </article>
