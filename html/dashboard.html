@@ -1,49 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
 
-    <link rel="apple-touch-icon" href="/img/erp.png">   <!-- icon in tab  -->
-    <link rel="icon" href="/img/erp.png">
+  <link rel="apple-touch-icon" href="/img/erp.png"> <!-- icon in tab  -->
+  <link rel="icon" href="/img/erp.png">
 
-    <title>Dashboard</title>
+  <title>Dashboard</title>
 </head>
+
 <body>
+
   <!-- navigation bar -->
-    <div class="navbar">
-       <a href="dashboard.html"> <h3><img src="/img/erp.png" alt="" style="width: 30px;">NAME</h3></a>
-       <div class="navElement">
-         <nav>
-            <ul>
-            <li><a href="/html/dashboard.html">Home</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Attendance</a></li>
+
+  <header>
+    <article id="navbox">
+      <figure class="makeFlex">
+
+        <a href="dashboard.html"><img src="/img/erp.png" id="logo" alt="logo" description="Designed by Freepik"></a>
+        <label for="logo" id="compname"><a href="dashboard.html">Company Name</a></label>
+
+      </figure>
+
+      <span class="navElement">
+        <nav>
+          <ul class="makeFlex">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#attendance">Attendance</a></li>
             <li><a href="">Resources</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="/index.html">Logout</a></li> 
-            </ul>
-         </nav>  
-          
-       </div>
-    </div>
+            <li><a href="">Contacts</a></li>
+            <li><a href="/index.html">Logout</a></li>
+          </ul>
+        </nav>
+
+      </span>
+    </article>
+  </header>
 
 
 
 
+  <main>
 
-    <!-- back to back-to-top -->
-    <div>
-     <a href="#" class="back-to-top">
+    <article id="home" class="items">
+      <div>
+        <div class="homebox" id="eventbox" style="height: 20vw;">
+          <h1>Events</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam in corrupti beatae, blanditiis non expedita
+            animi placeat, itaque eum quia odio velit. Quasi tempora incidunt accusantium ipsam recusandae
+            exercitationem facilis quia! Quod corrupti quia quae? Dolorum sed id, perspiciatis ipsam quibusdam quo
+            voluptatum exercitationem, earum quos, error totam autem. Dolores, repellat nostrum architecto nihil
+            provident maiores neque cupiditate aspernatur ipsam animi quas molestias alias, blanditiis asperiores
+            accusamus quidem. Fugit quo consequuntur vero ad ratione ipsa illum harum et, architecto magni. Illum
+            nesciunt earum recusandae aliquam aliquid officia in soluta deleniti unde! Ullam inventore consequatur minus
+            perferendis deleniti exercitationem aliquid facilis quisquam. Fugiat repellat dolor quasi dolores doloremque
+            architecto, maxime unde, quibusdam officia sequi qui recusandae natus mollitia eligendi similique, delectus
+            esse impedit magnam sunt quod quidem nobis cum? Eaque nihil illum sed? Laboriosam dicta neque vero ipsum
+            fuga libero nemo id non, corporis unde repudiandae dignissimos iusto voluptatum fugiat delectus, praesentium
+            ullam voluptate accusantium soluta ad consectetur cumque maiores eveniet blanditiis. Provident eaque
+            voluptate minima nostrum magni, deserunt perspiciatis quo minus suscipit mollitia a velit expedita
+            exercitationem obcaecati dicta repudiandae, dolores quidem vero hic ipsam ipsa rerum eum error! Voluptates
+            fugiat quae aut itaque maiores nostrum, excepturi nisi veritatis molestiae, et dicta praesentium, cum saepe?
+            Beatae, quaerat, iure odit pariatur qui tempore necessitatibus dolorem cumque, eum fugit fuga mollitia sed
+            repellat magnam maxime? Veritatis mollitia error inventore sint eaque, modi, distinctio asperiores officia
+            officiis blanditiis, fuga repellendus consectetur? Eos harum illum incidunt ipsum est eum at soluta.
+            Accusantium omnis eos doloremque. Magni, odit asperiores.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptas sed corrupti reprehenderit
+            voluptate sequi quas illum nesciunt minus laudantium, et, impedit animi quia nemo nihil voluptates cumque
+            possimus velit.</p>
+        </div>
+
+        <div class="homebox" id="notificationBox" style="height: 40vw;">
+          <h1>Notice</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum suscipit iure unde fugiat maiores, minus
+            illo maxime nemo eum dignissimos earum dolores voluptatem ut veniam omnis libero similique aperiam totam?
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <article id="attendance" class="items">
+      <div id="attendancebox">
+        <div id="attendancepie"></div>
+
+        <div id="attendancetable">
+          <table>
+            <colgroup span="3"></colgroup>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>activiy</th>
+                <th>status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>3/2/2023</td>
+                <td>hackathon</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>3/2/2023</td>
+                <td>documentation</td>
+                <td>absent</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+              <tr>
+                <td>4/2/2023</td>
+                <td>idea presentation</td>
+                <td>present</td>
+              </tr>
+            </tbody>
+
+          </table>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+
+  <!-- back to back-to-top -->
+  <div>
+    <a href="#" class="back-to-top">
       <i>
-        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"  viewBox="0 0 16 16">
-          <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
         </svg>
       </i>
-     </a>
+    </a>
   </div>
+
+
 </body>
+
 </html>
